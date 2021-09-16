@@ -1,0 +1,24 @@
+{
+  "name": "rick-and-morty-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BukarevDmitriy/rick-and-morty-db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BukarevDmitriy/rick-and-morty-db/issues"
+  },
+  "homepage": "https://github.com/BukarevDmitriy/rick-and-morty-db#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "pg": "^8.7.1",
+    "postgresql": "0.0.1"
+  }
+}
