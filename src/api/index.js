@@ -1,7 +1,8 @@
 const axios = require('axios');
 
-// const getCharacters = async () => axios.get('https://rickandmortyapi.com/api/character/1,671');
-const getCharacters = async () => axios.get('https://rickandmortyapi.com/api/character/?page=2');
+const apiUrl = 'https://rickandmortyapi.com/api';
+
+const getCharacters = async (page) => axios.get(`${apiUrl}/character/?page=${page}`);
 
 module.exports = {
   getCharacters,
