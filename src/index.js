@@ -11,6 +11,8 @@ const createTableText = `CREATE TABLE ${TABLE_NAME}(
 );`;
 
 (async () => {
+  console.log('begin script');
+
   try {
     await client.query(createTableText);
   } catch (err) {
@@ -31,4 +33,6 @@ const createTableText = `CREATE TABLE ${TABLE_NAME}(
       }
     }
   }
+
+  console.log('end script');
 })();
